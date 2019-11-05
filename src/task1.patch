@@ -1,0 +1,12 @@
+diff --git a/src/task1.c b/src/task1.c
+index a7024d5..ba796fd 100644
+--- a/src/task1.c
++++ b/src/task1.c
+@@ -2,5 +2,6 @@
+ 
+ int main(){
+ 	printf("Hello ESPL\n");
++        printf("This is a new print");
+ 	return 0;
+ }
+\ No newline at end of file
