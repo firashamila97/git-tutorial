@@ -5,7 +5,7 @@
 int main(){
     int num;
     char a;
-    char str;
+    char* str;
 a = 'i';
 while(a = 'i') 
     {
