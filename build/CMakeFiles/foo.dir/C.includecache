@@ -12,18 +12,6 @@
 
 ../lib/states.h
 
-/DIST/home/lab_espl_stud05/git-tutorial/src/espl_lib.c
-math.h
--
-stdio.h
--
-stdlib.h
--
-string.h
--
-
-/DIST/home/lab_espl_stud05/git-tutorial/src/espl_lib.h
-
 /DIST/home/lab_espl_stud05/git-tutorial/src/main.c
 argp.h
 -
@@ -55,10 +43,4 @@ my_states.h
 /DIST/home/lab_espl_stud05/git-tutorial/src/my_states.h
 states.h
 /DIST/home/lab_espl_stud05/git-tutorial/src/states.h
-
-/DIST/home/lab_espl_stud05/git-tutorial/src/task1.c
-stdio.h
--
-espl_lib.h
-/DIST/home/lab_espl_stud05/git-tutorial/src/espl_lib.h
 

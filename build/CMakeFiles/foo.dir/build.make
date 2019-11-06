@@ -57,33 +57,9 @@ include CMakeFiles/foo.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/foo.dir/flags.make
 
-CMakeFiles/foo.dir/src/espl_lib.c.o: CMakeFiles/foo.dir/flags.make
-CMakeFiles/foo.dir/src/espl_lib.c.o: ../src/espl_lib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/DIST/home/lab_espl_stud05/git-tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/foo.dir/src/espl_lib.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/foo.dir/src/espl_lib.c.o   -c /DIST/home/lab_espl_stud05/git-tutorial/src/espl_lib.c
-
-CMakeFiles/foo.dir/src/espl_lib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/foo.dir/src/espl_lib.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /DIST/home/lab_espl_stud05/git-tutorial/src/espl_lib.c > CMakeFiles/foo.dir/src/espl_lib.c.i
-
-CMakeFiles/foo.dir/src/espl_lib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/foo.dir/src/espl_lib.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /DIST/home/lab_espl_stud05/git-tutorial/src/espl_lib.c -o CMakeFiles/foo.dir/src/espl_lib.c.s
-
-CMakeFiles/foo.dir/src/espl_lib.c.o.requires:
-
-.PHONY : CMakeFiles/foo.dir/src/espl_lib.c.o.requires
-
-CMakeFiles/foo.dir/src/espl_lib.c.o.provides: CMakeFiles/foo.dir/src/espl_lib.c.o.requires
-	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/src/espl_lib.c.o.provides.build
-.PHONY : CMakeFiles/foo.dir/src/espl_lib.c.o.provides
-
-CMakeFiles/foo.dir/src/espl_lib.c.o.provides.build: CMakeFiles/foo.dir/src/espl_lib.c.o
-
-
 CMakeFiles/foo.dir/src/main.c.o: CMakeFiles/foo.dir/flags.make
 CMakeFiles/foo.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/DIST/home/lab_espl_stud05/git-tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/foo.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/DIST/home/lab_espl_stud05/git-tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/foo.dir/src/main.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/foo.dir/src/main.c.o   -c /DIST/home/lab_espl_stud05/git-tutorial/src/main.c
 
 CMakeFiles/foo.dir/src/main.c.i: cmake_force
@@ -107,7 +83,7 @@ CMakeFiles/foo.dir/src/main.c.o.provides.build: CMakeFiles/foo.dir/src/main.c.o
 
 CMakeFiles/foo.dir/src/my_states.c.o: CMakeFiles/foo.dir/flags.make
 CMakeFiles/foo.dir/src/my_states.c.o: ../src/my_states.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/DIST/home/lab_espl_stud05/git-tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/foo.dir/src/my_states.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/DIST/home/lab_espl_stud05/git-tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/foo.dir/src/my_states.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/foo.dir/src/my_states.c.o   -c /DIST/home/lab_espl_stud05/git-tutorial/src/my_states.c
 
 CMakeFiles/foo.dir/src/my_states.c.i: cmake_force
@@ -129,48 +105,20 @@ CMakeFiles/foo.dir/src/my_states.c.o.provides: CMakeFiles/foo.dir/src/my_states.
 CMakeFiles/foo.dir/src/my_states.c.o.provides.build: CMakeFiles/foo.dir/src/my_states.c.o
 
 
-CMakeFiles/foo.dir/src/task1.c.o: CMakeFiles/foo.dir/flags.make
-CMakeFiles/foo.dir/src/task1.c.o: ../src/task1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/DIST/home/lab_espl_stud05/git-tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/foo.dir/src/task1.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/foo.dir/src/task1.c.o   -c /DIST/home/lab_espl_stud05/git-tutorial/src/task1.c
-
-CMakeFiles/foo.dir/src/task1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/foo.dir/src/task1.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /DIST/home/lab_espl_stud05/git-tutorial/src/task1.c > CMakeFiles/foo.dir/src/task1.c.i
-
-CMakeFiles/foo.dir/src/task1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/foo.dir/src/task1.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /DIST/home/lab_espl_stud05/git-tutorial/src/task1.c -o CMakeFiles/foo.dir/src/task1.c.s
-
-CMakeFiles/foo.dir/src/task1.c.o.requires:
-
-.PHONY : CMakeFiles/foo.dir/src/task1.c.o.requires
-
-CMakeFiles/foo.dir/src/task1.c.o.provides: CMakeFiles/foo.dir/src/task1.c.o.requires
-	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/src/task1.c.o.provides.build
-.PHONY : CMakeFiles/foo.dir/src/task1.c.o.provides
-
-CMakeFiles/foo.dir/src/task1.c.o.provides.build: CMakeFiles/foo.dir/src/task1.c.o
-
-
 # Object files for target foo
 foo_OBJECTS = \
-"CMakeFiles/foo.dir/src/espl_lib.c.o" \
 "CMakeFiles/foo.dir/src/main.c.o" \
-"CMakeFiles/foo.dir/src/my_states.c.o" \
-"CMakeFiles/foo.dir/src/task1.c.o"
+"CMakeFiles/foo.dir/src/my_states.c.o"
 
 # External object files for target foo
 foo_EXTERNAL_OBJECTS =
 
-../bin/foo: CMakeFiles/foo.dir/src/espl_lib.c.o
 ../bin/foo: CMakeFiles/foo.dir/src/main.c.o
 ../bin/foo: CMakeFiles/foo.dir/src/my_states.c.o
-../bin/foo: CMakeFiles/foo.dir/src/task1.c.o
 ../bin/foo: CMakeFiles/foo.dir/build.make
 ../bin/foo: libESPL_LIB.a
 ../bin/foo: CMakeFiles/foo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/DIST/home/lab_espl_stud05/git-tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable ../bin/foo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/DIST/home/lab_espl_stud05/git-tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ../bin/foo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -178,10 +126,8 @@ CMakeFiles/foo.dir/build: ../bin/foo
 
 .PHONY : CMakeFiles/foo.dir/build
 
-CMakeFiles/foo.dir/requires: CMakeFiles/foo.dir/src/espl_lib.c.o.requires
 CMakeFiles/foo.dir/requires: CMakeFiles/foo.dir/src/main.c.o.requires
 CMakeFiles/foo.dir/requires: CMakeFiles/foo.dir/src/my_states.c.o.requires
-CMakeFiles/foo.dir/requires: CMakeFiles/foo.dir/src/task1.c.o.requires
 
 .PHONY : CMakeFiles/foo.dir/requires
 

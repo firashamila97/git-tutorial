@@ -136,14 +136,7 @@ void create_timer(int tick) {
   timer_specs.it_value.tv_sec =
       tick_nanos / NANOS_IN_SEC; /** Initial period seconds */
 
-  error = timer_create(CLOCK_REALTIME, &se, &our_timer); /** Create timer */
-  if (error == -1)
-    errno_abort("Creating timer");
-
-  error =
-      timer_settime(our_timer, 0, &timer_specs, 0); /** Set timer interval */
-  if (error == -1)
-    errno_abort("Setting timer");
+  
 }
 
 void statemachine_callback(void) {

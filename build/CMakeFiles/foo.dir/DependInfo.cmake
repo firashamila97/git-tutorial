@@ -4,10 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/DIST/home/lab_espl_stud05/git-tutorial/src/espl_lib.c" "/DIST/home/lab_espl_stud05/git-tutorial/build/CMakeFiles/foo.dir/src/espl_lib.c.o"
   "/DIST/home/lab_espl_stud05/git-tutorial/src/main.c" "/DIST/home/lab_espl_stud05/git-tutorial/build/CMakeFiles/foo.dir/src/main.c.o"
   "/DIST/home/lab_espl_stud05/git-tutorial/src/my_states.c" "/DIST/home/lab_espl_stud05/git-tutorial/build/CMakeFiles/foo.dir/src/my_states.c.o"
-  "/DIST/home/lab_espl_stud05/git-tutorial/src/task1.c" "/DIST/home/lab_espl_stud05/git-tutorial/build/CMakeFiles/foo.dir/src/task1.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

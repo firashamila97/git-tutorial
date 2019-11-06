@@ -190,33 +190,6 @@ lib/states.c.s:
 	$(MAKE) -f CMakeFiles/ESPL_LIB.dir/build.make CMakeFiles/ESPL_LIB.dir/lib/states.c.s
 .PHONY : lib/states.c.s
 
-src/espl_lib.o: src/espl_lib.c.o
-
-.PHONY : src/espl_lib.o
-
-# target to build an object file
-src/espl_lib.c.o:
-	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/src/espl_lib.c.o
-.PHONY : src/espl_lib.c.o
-
-src/espl_lib.i: src/espl_lib.c.i
-
-.PHONY : src/espl_lib.i
-
-# target to preprocess a source file
-src/espl_lib.c.i:
-	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/src/espl_lib.c.i
-.PHONY : src/espl_lib.c.i
-
-src/espl_lib.s: src/espl_lib.c.s
-
-.PHONY : src/espl_lib.s
-
-# target to generate assembly for a file
-src/espl_lib.c.s:
-	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/src/espl_lib.c.s
-.PHONY : src/espl_lib.c.s
-
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -271,33 +244,6 @@ src/my_states.c.s:
 	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/src/my_states.c.s
 .PHONY : src/my_states.c.s
 
-src/task1.o: src/task1.c.o
-
-.PHONY : src/task1.o
-
-# target to build an object file
-src/task1.c.o:
-	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/src/task1.c.o
-.PHONY : src/task1.c.o
-
-src/task1.i: src/task1.c.i
-
-.PHONY : src/task1.i
-
-# target to preprocess a source file
-src/task1.c.i:
-	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/src/task1.c.i
-.PHONY : src/task1.c.i
-
-src/task1.s: src/task1.c.s
-
-.PHONY : src/task1.s
-
-# target to generate assembly for a file
-src/task1.c.s:
-	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/src/task1.c.s
-.PHONY : src/task1.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -314,18 +260,12 @@ help:
 	@echo "... lib/states.o"
 	@echo "... lib/states.i"
 	@echo "... lib/states.s"
-	@echo "... src/espl_lib.o"
-	@echo "... src/espl_lib.i"
-	@echo "... src/espl_lib.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/my_states.o"
 	@echo "... src/my_states.i"
 	@echo "... src/my_states.s"
-	@echo "... src/task1.o"
-	@echo "... src/task1.i"
-	@echo "... src/task1.s"
 .PHONY : help
 
 
