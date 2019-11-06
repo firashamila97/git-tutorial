@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/foo.dir/src/espl_lib.c.o"
+  "CMakeFiles/foo.dir/src/main.c.o"
+  "CMakeFiles/foo.dir/src/my_states.c.o"
   "CMakeFiles/foo.dir/src/task1.c.o"
   "../bin/foo.pdb"
   "../bin/foo"

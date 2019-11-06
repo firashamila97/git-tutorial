@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ESPL_LIB
+
+# Build rule for target.
+ESPL_LIB: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ESPL_LIB
+.PHONY : ESPL_LIB
+
+# fast build rule for target.
+ESPL_LIB/fast:
+	$(MAKE) -f CMakeFiles/ESPL_LIB.dir/build.make CMakeFiles/ESPL_LIB.dir/build
+.PHONY : ESPL_LIB/fast
+
+#=============================================================================
 # Target rules for targets named foo
 
 # Build rule for target.
@@ -122,6 +135,141 @@ foo: cmake_check_build_system
 foo/fast:
 	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
 .PHONY : foo/fast
+
+lib/espl_lib.o: lib/espl_lib.c.o
+
+.PHONY : lib/espl_lib.o
+
+# target to build an object file
+lib/espl_lib.c.o:
+	$(MAKE) -f CMakeFiles/ESPL_LIB.dir/build.make CMakeFiles/ESPL_LIB.dir/lib/espl_lib.c.o
+.PHONY : lib/espl_lib.c.o
+
+lib/espl_lib.i: lib/espl_lib.c.i
+
+.PHONY : lib/espl_lib.i
+
+# target to preprocess a source file
+lib/espl_lib.c.i:
+	$(MAKE) -f CMakeFiles/ESPL_LIB.dir/build.make CMakeFiles/ESPL_LIB.dir/lib/espl_lib.c.i
+.PHONY : lib/espl_lib.c.i
+
+lib/espl_lib.s: lib/espl_lib.c.s
+
+.PHONY : lib/espl_lib.s
+
+# target to generate assembly for a file
+lib/espl_lib.c.s:
+	$(MAKE) -f CMakeFiles/ESPL_LIB.dir/build.make CMakeFiles/ESPL_LIB.dir/lib/espl_lib.c.s
+.PHONY : lib/espl_lib.c.s
+
+lib/states.o: lib/states.c.o
+
+.PHONY : lib/states.o
+
+# target to build an object file
+lib/states.c.o:
+	$(MAKE) -f CMakeFiles/ESPL_LIB.dir/build.make CMakeFiles/ESPL_LIB.dir/lib/states.c.o
+.PHONY : lib/states.c.o
+
+lib/states.i: lib/states.c.i
+
+.PHONY : lib/states.i
+
+# target to preprocess a source file
+lib/states.c.i:
+	$(MAKE) -f CMakeFiles/ESPL_LIB.dir/build.make CMakeFiles/ESPL_LIB.dir/lib/states.c.i
+.PHONY : lib/states.c.i
+
+lib/states.s: lib/states.c.s
+
+.PHONY : lib/states.s
+
+# target to generate assembly for a file
+lib/states.c.s:
+	$(MAKE) -f CMakeFiles/ESPL_LIB.dir/build.make CMakeFiles/ESPL_LIB.dir/lib/states.c.s
+.PHONY : lib/states.c.s
+
+src/espl_lib.o: src/espl_lib.c.o
+
+.PHONY : src/espl_lib.o
+
+# target to build an object file
+src/espl_lib.c.o:
+	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/src/espl_lib.c.o
+.PHONY : src/espl_lib.c.o
+
+src/espl_lib.i: src/espl_lib.c.i
+
+.PHONY : src/espl_lib.i
+
+# target to preprocess a source file
+src/espl_lib.c.i:
+	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/src/espl_lib.c.i
+.PHONY : src/espl_lib.c.i
+
+src/espl_lib.s: src/espl_lib.c.s
+
+.PHONY : src/espl_lib.s
+
+# target to generate assembly for a file
+src/espl_lib.c.s:
+	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/src/espl_lib.c.s
+.PHONY : src/espl_lib.c.s
+
+src/main.o: src/main.c.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.c.o:
+	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/src/main.c.o
+.PHONY : src/main.c.o
+
+src/main.i: src/main.c.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.c.i:
+	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/src/main.c.i
+.PHONY : src/main.c.i
+
+src/main.s: src/main.c.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.c.s:
+	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/src/main.c.s
+.PHONY : src/main.c.s
+
+src/my_states.o: src/my_states.c.o
+
+.PHONY : src/my_states.o
+
+# target to build an object file
+src/my_states.c.o:
+	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/src/my_states.c.o
+.PHONY : src/my_states.c.o
+
+src/my_states.i: src/my_states.c.i
+
+.PHONY : src/my_states.i
+
+# target to preprocess a source file
+src/my_states.c.i:
+	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/src/my_states.c.i
+.PHONY : src/my_states.c.i
+
+src/my_states.s: src/my_states.c.s
+
+.PHONY : src/my_states.s
+
+# target to generate assembly for a file
+src/my_states.c.s:
+	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/src/my_states.c.s
+.PHONY : src/my_states.c.s
 
 src/task1.o: src/task1.c.o
 
@@ -158,7 +306,23 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... ESPL_LIB"
 	@echo "... foo"
+	@echo "... lib/espl_lib.o"
+	@echo "... lib/espl_lib.i"
+	@echo "... lib/espl_lib.s"
+	@echo "... lib/states.o"
+	@echo "... lib/states.i"
+	@echo "... lib/states.s"
+	@echo "... src/espl_lib.o"
+	@echo "... src/espl_lib.i"
+	@echo "... src/espl_lib.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/my_states.o"
+	@echo "... src/my_states.i"
+	@echo "... src/my_states.s"
 	@echo "... src/task1.o"
 	@echo "... src/task1.i"
 	@echo "... src/task1.s"

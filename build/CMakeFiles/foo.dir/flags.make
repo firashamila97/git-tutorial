@@ -6,5 +6,5 @@ C_FLAGS = -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/DIST/home/lab_espl_stud05/git-tutorial/include 
+C_INCLUDES = -I/DIST/home/lab_espl_stud05/git-tutorial/include -I/DIST/home/lab_espl_stud05/git-tutorial/lib 
 

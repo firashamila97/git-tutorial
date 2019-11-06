@@ -1,1 +1,1 @@
-/usr/bin/cc  -g   CMakeFiles/foo.dir/src/task1.c.o  -o ../bin/foo 
+/usr/bin/cc  -g   CMakeFiles/foo.dir/src/espl_lib.c.o CMakeFiles/foo.dir/src/main.c.o CMakeFiles/foo.dir/src/my_states.c.o CMakeFiles/foo.dir/src/task1.c.o  -o ../bin/foo libESPL_LIB.a 
